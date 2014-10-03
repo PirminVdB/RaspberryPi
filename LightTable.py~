@@ -1,3 +1,5 @@
+Import RPi
+
 class light_table():
 	def start(self):
 		gpio1on enzoverser
