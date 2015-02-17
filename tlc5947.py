@@ -5,7 +5,6 @@ class GPIOOutput:
   def __init__(self, pin):
     self.pin = pin
     GPIO.setup(pin, GPIO.OUT)
-    #self.low()
 
   def high(self):
     self.__output(GPIO.HIGH)
